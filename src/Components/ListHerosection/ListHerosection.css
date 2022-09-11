@@ -1,0 +1,46 @@
+.ListMain{
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 500px));
+   grid-gap: 70px;
+   justify-content: space-around;
+   margin-top: 3%;
+}
+
+.ListMain i{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    background-color: #4dbf1c;
+    padding: 4%;
+}
+.ListMain p{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    background-color: #4dbf1c;
+    padding: 4%;
+}
+
+.ListMain1{
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(170px, 59px));
+    
+    
+}
+
+.ListMain1 p{
+    margin-left: -81%;
+    font-size: 110%;
+}
+
+
+.ListMain2{
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(170px, 59px));
+}
+
+.ListMain2 p{
+    margin-left: -81%;
+    font-size: 110%;
+}

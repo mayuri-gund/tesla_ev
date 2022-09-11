@@ -1,0 +1,37 @@
+h1{
+    color: #4dbf1c;
+    font-family: sans-serif;
+    text-align: center;
+  
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .table{
+    width: 80%;
+    text-align: center;
+    padding-right: 100px;
+  }
+  thead tr th{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  tbody tr td{
+    height: 80px;
+    vertical-align: middle;
+  }
+  th{
+    height: 80px;
+    text-align: center;
+  
+  }
+  td{
+    font-weight: 500;
+  }
+  .register-link a{
+    color:rgb(0, 140, 255);
+    text-decoration: none;
+  }
+  .register-link a:hover{
+    color: black;
+    text-decoration: underline;
+  }
