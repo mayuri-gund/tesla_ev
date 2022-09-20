@@ -12,7 +12,7 @@ const EvRetro = () => {
     <>
       <h1 style={{ fontSize: "50px", fontWeight: "700", color: "#4dbf1c", textAlign: "center", paddingBottom: '50px', paddingTop: '35px' }}>Online Test in EV Domain</h1>
       <div className='AC_Cards'>
-        <EvRetroCards aCData={aCData} />
+        {/* <EvRetroCards aCData={aCData} /> */}
       </div>
 
     </>
