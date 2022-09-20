@@ -10,7 +10,7 @@ const IntroCards = () => {
       <div className="container">
         <div className="row-blog">
           <div className="col-md-12">
-            <div id="blogCarousel" className="carousel slide" data-bs-ride="carousel">
+            <div id="blogCarousel" className="carousel slide" data-bs-ride="true">
               {/* Carousel items */}
               <div className="carousel-inner">
                 <div className="carousel-item active">

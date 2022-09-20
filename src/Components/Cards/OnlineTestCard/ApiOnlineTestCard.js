@@ -74,7 +74,7 @@ const Tests =[ {
     
     id :"8",
     Image:"",
-    testName:"EV International Stadards",
+    testName:"EV Global Standards",
     Description:"Coming Soon... ",
     testLink:" ",
     testDuration:"15 Min ",

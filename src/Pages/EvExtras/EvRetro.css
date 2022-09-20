@@ -1,0 +1,44 @@
+.acRetro {
+    /* text-align: center; */
+    margin-left: 2%;
+    margin-top: 5%;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.col-md-8 {
+    width: 95%;
+}
+.AC_Cards{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aCDatas {
+    margin: 0 -5px;
+    margin-left: 10%;
+
+}
+
+/* Clear floats after the columns */
+.aCDatas:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+@media only screen and (min-width:500px) and (max-width:820px) {
+    .aCDatas {
+        display: grid;
+        width: 30%;
+        grid-gap: 50px;
+        justify-content: space-around;
+
+    }
+}

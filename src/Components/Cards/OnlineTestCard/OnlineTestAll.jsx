@@ -6,18 +6,18 @@ import { useState } from 'react'
 
 const OnlineTestAll = () => {
 
-    const [testsData, setTestsData] = useState(Tests);
+  const [testsData, setTestsData] = useState(Tests);
 
   return (
     <>
-    <h2 style={{marginTop:"3%" , textAlign:"center" , color:"#4dbf1c" , fontSize:"300%"}}>Online Test in EV Domain</h2>
-    <h5 style={{ textAlign:"center" , color:"#4dbf1c" }}>To Upgrade skill and knowledge in EV Domain</h5>
-    <div className='AlltestDatas'>
-      <TestCard testsData ={testsData}/>
-    </div>
-    
+      <h1 style={{ fontSize: "50px", fontWeight: "700", color: "#4dbf1c", textAlign: "center", paddingBottom: '50px', paddingTop: '35px' }}>Online Test in EV Domain</h1>
+      <h4 style={{ textAlign: "center", color: "#4dbf1c" }}>To Upgrade skill and knowledge in EV Domain</h4>
+      <div className='AlltestDatas'>
+        <TestCard testsData={testsData} />
+      </div>
+
     </>
   )
-}  
+}
 
 export default OnlineTestAll
