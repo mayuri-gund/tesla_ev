@@ -7,7 +7,9 @@ import "./ListHerosection.css"
 const ListHerosection = () => {
     return (
         <>
-            <div className='ListMain'>
+
+
+            {/* <div className='ListMain'>
 
                 <div className='ListMain1'>
                   
@@ -48,7 +50,7 @@ const ListHerosection = () => {
 
 
 
-            </div>
+            </div> */}
 
         </>
     )

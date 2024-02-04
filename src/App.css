@@ -1,11 +1,15 @@
-/*Navbar css*/
+
 .navbar{
   /* background: rgba(0,0,0, 0.7) url(/public/Images/Scooter\ \(1\).jpg); */
  /* background-size: cover; */
  /* background-blend-mode: darken; */
  background-color: white;
 }
-
+@media screen and (max-width: 600px) {
+  .nav-item.show.dropdown {
+    margin-right: 65%;
+ }
+}
 .container a:hover{
   color:#4bdf1c;
 }

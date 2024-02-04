@@ -4,11 +4,11 @@ import Home from './Pages/Home';
 import { BrowserRouter as Router , Switch , Route, Redirect } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer';
-import AboutUs from './Pages/AboutUs'
-import ContactUs from './Pages/ContactUs'
+import AboutUs from './Pages/AboutUS/AboutUs'
+import ContactUs from './Components/ContactUs'
 import EvCourses from './Pages/EvCourses';
 import EvProducts from './Pages/EvProducts/EvProducts';
-import Gallery from './Pages/Gallery'
+import Gallery from './Pages/Gallery/Gallery'
 import EvApp from './Pages/EvExtras/EvApp'
 import EvCoeMou from './Pages/EvExtras/EvCoeMou';
 import EvFranchise from './Pages/EvExtras/EvFranchise'

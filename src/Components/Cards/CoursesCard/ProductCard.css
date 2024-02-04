@@ -1,4 +1,12 @@
-
+@media screen and (max-width: 600px) {
+.Product-card-Top{
+      margin-top: 13%;
+      padding-bottom: 10px;
+  }
+  .main-card--cointainer1 {
+    margin-top: -5%;
+  }
+}
 .main-card--cointainer1 {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 500px));
@@ -58,7 +66,7 @@
     .main-card--cointainer1{
               
       display: list-item;
-      
+      list-style-type: none;
     }
   }
   

@@ -1,0 +1,275 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ .advisoryM{
+    display: flex;
+ }
+ .card{
+    width:504px;
+ }
+ @media (max-width:1300px){
+    .card{
+        width: 70%;
+    }
+    }
+@media (max-width:1300px){
+.advisoryM{
+    display: list-item;
+}
+}
+
+
+.containerabout{
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.containerabout .box{
+  /* width: calc(25% - 10px); */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border-color: #4dbf1c;
+}
+.box .quote i{
+margin-top: 10px;
+font-size: 45px;
+color: #17c0eb
+}
+.containerabout .box .image{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #4dbf1c;
+  padding: 3px;
+  border-radius: 50%;
+}
+.box .image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.box p{
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box .name_job{
+  margin: 10px 0 3px 0;
+  color: #4dbf1c;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+@media (max-width:1045px){
+  .containerabout .box{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:710px){
+  .containerabout .box{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is orignal */
+.fristsection {
+    height: 75vh;
+    /* background-image: url(./bgimg.jpg); */
+    list-style-type: none;
+}
+
+.fristhalf {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin:auto;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 2%;
+
+
+}
+.main:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);   
+}
+
+.section {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+ 
+
+}
+
+.secondhalf img {
+    border-radius: 100px;
+    border: black 2px;
+}
+
+.secondhalf h4 {
+    margin-left: 2rem;
+}
+
+.bigtext {
+    font-size: 37px;
+}
+
+.smalltext {
+    padding-top: 2px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+
+.secondSectionCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    margin: auto;
+  }
+  
+  .secondSectionCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .secondSection .containerabout {
+    padding: 2px 16px;
+    text-align: center;
+  }
+  .secondSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .secondMain {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 40%;
+    margin:auto;
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-top: 2%;
+
+
+}
+.second-fristhalf {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.MotoPara{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+}
+.advisoryManagement{
+    display: flex;
+}
+@media only screen and (max-width:800px){
+
+    .secondhalf img {
+
+        margin-left: 10%;
+
+    }
+    .smalltext {
+   
+        margin-left: 20px;
+    }
+    .MotoPara{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 210%;
+    }
+    .secondSectionCard{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7%;
+    }
+    .advisoryManagement{
+        display: list-item;
+    }
+    .secondMain {
+        display: list-item;
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+ .secondSection{
+
+    margin: auto;
+    display: list-item;
+ }
+
+ .main{
+    display: list-item;
+ }
+  }
+ 
+ 

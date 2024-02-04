@@ -1,21 +1,41 @@
-.firstCard{
+.appRow {
+    
+    text-align: center;
+}
+
+.firstCard {
     position: relative;
+    text-align: center;
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
 }
-.firstCard .AppInstallBtn{
+
+.firstCard .AppInstallBtn {
     position: absolute;
-  top: 83%;
-  left: 78%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #4dbf1c;
-  color: white;
-  font-size: 20px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+    top: 83%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4dbf1c;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
+@media (max-width:640px){
+
+    .firstCard .AppInstallBtn {
+
+        top:81%;
+        padding: 4px 14px;
+    }
+
+}
+
 .AppImg2 {
     width: 70%;
     height: 920px;
@@ -24,7 +44,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-/* marginTop: "-150px", marginRight: "40px"  */
+
 .AppBtn {
     display: block;
     left: -60px;

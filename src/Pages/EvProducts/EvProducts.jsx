@@ -5,12 +5,13 @@ import { Link } from 'react-router-dom'
 const EvProducts = () => {
   return (
     <>
-      <div>
         <h1 style={{ color: '#4dbf1c', fontWeight: 700, fontSize: '50px', textAlign: 'center', paddingBottom: '50px', paddingTop: '35px' }}>EV Products</h1>
+
+      <div style={{margin:"4%"}}>
         <div className="ProductCard">
           <div className="ProductMeta">
             <div className="ProductPhoto">
-              <img src="images\digitalGarage2.jpg" alt="digitalGarage2" />
+              <img className='ProductImage' src="Images\digitalGarage2.jpg" alt="digitalGarage2" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -26,7 +27,7 @@ const EvProducts = () => {
         <div className="ProductCard alt" >
           <div className="ProductMeta">
             <div className="ProductPhoto" style={{ height: '229px', width: '280px' }}>
-              <img src="images\deliveryEV.jpg" alt="deliveryEV" />
+              <img className='ProductImage' src="Images\deliveryEV.jpg" alt="deliveryEV" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -42,7 +43,7 @@ const EvProducts = () => {
         <div className="ProductCard">
           <div className="ProductMeta">
             <div className="ProductPhoto">
-              <img src="images\retrofitmentKit1.jpg" alt="retrofitmentKit1" />
+              <img className='ProductImage' src="Images\retrofitmentKit1.jpg" alt="retrofitmentKit1" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -58,7 +59,7 @@ const EvProducts = () => {
         <div className="ProductCard alt">
           <div className="ProductMeta">
             <div className="ProductPhoto">
-              <img src="images\chargingStations.jpg" alt="chargingStations" />
+              <img className='ProductImage' src="Images\chargingStations.jpg" alt="chargingStations" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -74,7 +75,7 @@ const EvProducts = () => {
         <div className="ProductCard">
           <div className="ProductMeta">
             <div className="ProductPhoto">
-              <img src="images\onlineSchool1.jpg" alt="onlineSchool1" />
+              <img className='ProductImage' src="Images\onlineSchool1.jpg" alt="onlineSchool1" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -90,7 +91,7 @@ const EvProducts = () => {
         <div className="ProductCard alt">
           <div className="ProductMeta">
             <div className="ProductPhoto" style={{ height: '229px', width: '280px' }}>
-              <img src="images\onlineSchoolAdv.jpg" alt="onlineSchoolAdv" />
+              <img className='ProductImage' src="Images\onlineSchoolAdv.jpg" alt="onlineSchoolAdv" />
             </div>
           </div>
           <div className="ProductDescription">
@@ -103,7 +104,7 @@ const EvProducts = () => {
             </p>
           </div>
         </div>
-        <h1 className="ProductRegisterLink" style={{ textAlign: 'center' }}><a href="#"><i className="fa-solid fa-pen-to-square" /> Register for Demo &amp; More Details</a></h1>
+        <h1 className="ProductRegisterLink" style={{ textAlign: 'center' }}><a href="\ContactUs"  target={"_blank"}><i className="fa-solid fa-pen-to-square" /> Register for Demo &amp; More Details</a></h1>
       </div>
   
     </>

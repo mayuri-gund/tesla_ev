@@ -1,6 +1,6 @@
 import React from 'react'
 import TestCard from "./TestCard"
-import './OnlineTestCard.css'
+import '../CoursesCard/ProductCard.css'
 import Tests from "./ApiOnlineTestCard.js"
 import { useState } from 'react'
 

@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.AllTeam{
+ 
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 500px));
+    grid-gap: 70px;
+    justify-content: space-around;
+    margin-left: 4%;
+    margin-right: 4%;
+   
+}
+
+
+.containeraboutTeam{
+ 
+  padding: 20px;
+
+}
+.containeraboutTeam .boxTeam{
+  /* width: calc(25% - 10px); */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border-color: #4dbf1c;
+}
+.boxTeam .quote i{
+margin-top: 10px;
+font-size: 45px;
+color: #17c0eb
+}
+.containeraboutTeam .boxTeam .imageTeam{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #4dbf1c;
+  padding: 3px;
+  border-radius: 50%;
+}
+.boxTeam .imageTeam img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.boxTeam p{
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+}
+.boxTeam .name_jobTeam{
+  margin: 10px 0 3px 0;
+  color: #4dbf1c;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+@media (max-width:1045px){
+  .containeraboutTeam .boxTeam{
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:710px){
+  .containeraboutTeam .boxTeam{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .AllTeam{
+            
+    display: list-item;
+    list-style-type: none;
+    
+  }
+}
+
+@media only screen and (min-width:500px) and (max-width:820px){
+  .AllTeam{
+         
+    display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 500px));
+  grid-gap: 50px;
+  justify-content: space-around;
+    
+  }
+}
+
+
+
+
+
+
+
